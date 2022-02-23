@@ -1,0 +1,12 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+*{font-family: sans-serif;}
+header{
+    text-align: center;
+}
+#supermanLanding{
+    width: 40vw;
+    height: 25vh;
+}
