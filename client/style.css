@@ -1,7 +1,20 @@
+*{font-family: sans-serif;}
+
+p{text-align: center;}
+
+img{
+    max-width: 40vw;
+    height: auto;
+}
+
 body{
     margin: 0px;
     padding: 0px;
 }
+
+header{text-align: center;}
+
+h2{text-align: center;}
 
 .content{
     height: max-content;
@@ -11,29 +24,8 @@ body{
     align-items: center;
 }
 
-*{font-family: sans-serif;}
-
-header{
-    text-align: center;
-}
-h2{text-align: center;}
-
 .landing{
     border: 1px solid #000;
     box-shadow: inset 1px 1px 1px #000;
     margin: 15px;
-}
-p{
-    text-align: center;
-}
-#supermanLandingImg{
-    max-width: 40vw;
-    height: auto;
-    margin: 25px;
-}
-
-#ironLandingImg{
-    max-width: 40vw;
-    height: auto;
-    width: auto;
 }
