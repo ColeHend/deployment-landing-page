@@ -2,11 +2,29 @@ body{
     margin: 0px;
     padding: 0px;
 }
+
+.content{
+    height: max-content;
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
 *{font-family: sans-serif;}
+
 header{
     text-align: center;
 }
+h2{text-align: center;}
+
 #supermanLanding{
-    width: 40vw;
-    height: 25vh;
+    max-width: 40vw;
+    height: auto;
+    margin: 25px;
+}
+#ironLanding{
+    max-width: 40vw;
+    height: auto;
+    width: auto;
 }
